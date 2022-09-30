@@ -1,12 +1,17 @@
 import React from 'react'
-import { Container , Row , Col, Button } from 'react-bootstrap'
+import { Container , Row , Col, Button, Breadcrumb } from 'react-bootstrap'
 import {TicketTable} from '../../components/ticket-table/TicketTable.comp'
 import tickets from '../../assests/data/dummy-tickets.json'
-
+import { PageBreadcrumb} from '../../components/breadcrumb/Breadcrumb.comp'
 
 export const Dasboard = () => {
   return (
     <Container>
+        <Row>
+            <Col>
+            <PageBreadcrumb page="Dashboard"/>
+            </Col>
+        </Row>
 <Row>
     <Col className='text-centre mt-5 mb-2'>
     <Button variant='info' style={{'font-size':'2rem', padding:'10px 30px'}}>Add New Ticket</Button>
