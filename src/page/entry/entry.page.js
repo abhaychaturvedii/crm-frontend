@@ -61,7 +61,7 @@ console.log(email);
   return (
     <div className="entry-page bg-info">
     
-      <Jumbotron className="form-box">
+      <Jumbotron className="form-box bg-white">
         {frmLoad === 'login' && ( <Login 
         handleOnChange={handleOnChange}
         handleOnSubmit={handleOnSubmit}

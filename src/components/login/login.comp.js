@@ -9,7 +9,6 @@ export const Login = ({handleOnChange,handleOnSubmit,formSwitcher ,email,pass })
       <Row>
         <Col>
           <h1 className="text-info text-centre">Client Login</h1>
-         <h1>Client Login</h1>
           <hr />
 
           <Form autoComplete="off" onSubmit={handleOnSubmit}>
